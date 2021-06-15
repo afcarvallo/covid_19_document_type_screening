@@ -9,7 +9,8 @@ Once the model was trained we evaluate their generalization capability on CORD-1
 CORD-19 dataset used for evaluation and XLNET pre-trained model with epistemonikos dataset can be found in the following link:
 https://zenodo.org/record/4959945
 
-The jupyter notebook code to run the experiments are included in this github repository in the scripts folder.
+The jupyter notebook code to run the experiments are included in this [link](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/XLNet_CORD19_predictions.ipynb).
 
 We obtained the following results: 
+
 
