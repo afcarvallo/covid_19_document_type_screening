@@ -6,8 +6,8 @@ In this paper we use an XLNET model finetuned on Epistemonikos dataset consistin
 
 Once the model was trained we evaluate their generalization capability on CORD-19 dataset adapted to the evidence-based medicine domain. 
 
-CORD-19 dataset used for evaluation and XLNET pre-trained model with epistemonikos dataset can be found in the following link: 
-**LINK**
+CORD-19 dataset used for evaluation and XLNET pre-trained model with epistemonikos dataset can be found in the following link:
+https://zenodo.org/record/4959945
 
 The jupyter notebook code to run the experiments are included in this github repository in the scripts folder.
 
