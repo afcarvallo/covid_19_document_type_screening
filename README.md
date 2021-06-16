@@ -11,9 +11,9 @@ https://zenodo.org/record/4959945
 
 The jupyter notebook code to run models predictions are included in the following links:
 
--  [XLNET](https://github.com/afcarvallo/covid_19_document_type_screening/scripts/XLNet_CORD19_predictions.ipynb).
--  [BioBERT](https://github.com/afcarvallo/covid_19_document_type_screening/scripts/BioBERT_CORD19_predictor.ipynb).
--  [Random Forest](https://github.com/afcarvallo/covid_19_document_type_screening/scripts/RandomForest_CORD19_predictor.ipynb).
+-  [XLNET](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/XLNet_CORD19_predictions.ipynb).
+-  [BioBERT](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/BioBERT_CORD19_predictor.ipynb).
+-  [Random Forest](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/RandomForest_CORD19_predictor.ipynb).
 
 Results are shown in f1-score: 
 
