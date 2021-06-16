@@ -9,8 +9,24 @@ Once the model was trained we evaluate their generalization capability on CORD-1
 CORD-19 dataset used for evaluation and XLNET pre-trained model with epistemonikos dataset can be found in the following link:
 https://zenodo.org/record/4959945
 
-The jupyter notebook code to run the experiments are included in this [link](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/XLNet_CORD19_predictions.ipynb).
+The jupyter notebook code to run models predictions are included in the following links:
 
-We obtained the following results: 
+-  [XLNET](https://github.com/afcarvallo/covid_19_document_type_screening/scripts/XLNet_CORD19_predictions.ipynb).
+-  [BioBERT](https://github.com/afcarvallo/covid_19_document_type_screening/scripts/BioBERT_CORD19_predictor.ipynb).
+-  [Random Forest](https://github.com/afcarvallo/covid_19_document_type_screening/scripts/RandomForest_CORD19_predictor.ipynb).
+
+Results are shown in f1-score: 
+
+|  type of article  | Random Forest | XLNET | BioBERT |
+|:-----------------:|:-------------:|:-----:|:-------:|
+|  Broad Synthesis  |      .45      |  **.81**  |   .62   |
+|      Excluded     |      .34      |  **.97**  |   .73   |
+|    Primary RCT    |      .56      |  **.86**  |   .71   |
+|  Primary-non-RCT  |      .06      |  **.99**  |   .88   |
+| Systematic Review |      .85      |  **.96**  |   .93   |
+|  **Weighted Average** |  .54      |  **.97**  |   .84   |
+
+
+
 
 
