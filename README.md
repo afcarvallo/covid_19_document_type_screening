@@ -1,8 +1,8 @@
 # COVID-19 document type screening with neural language models for evidence-based healthcare
 
-This repository contains the code used for experiments in the paper: "COVID-19 document type screening with neural language models for evidence-based healthcare"
+This repository contains the code used for experiments for COVID-19 document type screening.
 
-In this paper we use an XLNET model finetuned on Epistemonikos dataset consisting on non-covid evidence labeled as systematic-review, primary study non randomized controlled trial, primary study randomized controlled trial, broad synthesis and excluded. 
+We use an XLNET model finetuned on Epistemonikos dataset consisting on non-covid evidence labeled as systematic-review, primary study non randomized controlled trial, primary study randomized controlled trial, broad synthesis and excluded. And compare to baselines BioBERT and Random Forest.
 
 Once the model was trained we evaluate their generalization capability on CORD-19 dataset adapted to the evidence-based medicine domain. 
 
