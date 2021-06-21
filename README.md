@@ -7,7 +7,7 @@ We use an XLNET model finetuned on Epistemonikos dataset consisting on non-covid
 Once the model was trained we evaluate their generalization capability on CORD-19 dataset adapted to the evidence-based medicine domain. 
 
 CORD-19 dataset used for evaluation and XLNET pre-trained model with epistemonikos dataset can be found in the following link:
-https://zenodo.org/record/4968811
+https://zenodo.org/record/5006942
 
 The jupyter notebook code to run models predictions are included in the following links:
 
