@@ -15,6 +15,15 @@ The jupyter notebook code to run models predictions are included in the followin
 -  [BioBERT](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/BioBERT_CORD19_predictor.ipynb).
 -  [Random Forest](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/RandomForest_CORD19_predictor.ipynb).
 
+Jupyter notebooks for fine-tuning strategies: 
+
+-  [XLNET random sampling](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/XLNet_CORD19_random_sampling_finetuning.ipynb).
+-  [XLNET data augmentation](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/XLNet_CORD19_data_augmentation_finetuning.ipynb).
+-  [XLNET uncertainty sampling iteration 1](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/XLNet_CORD19_uncertainty_sampling_finetuning_iter1.ipynb).
+-  [XLNET uncertainty sampling iteration 2](https://github.com/afcarvallo/covid_19_document_type_screening/blob/main/scripts/XLNet_CORD19_uncertainty_sampling_finetuning_iter2.ipynb).
+
+
+
 Results are shown in f1-score: 
 
 |  type of article  | Random Forest | XLNET | BioBERT |
